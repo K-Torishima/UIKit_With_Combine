@@ -15,6 +15,10 @@
 		7D038F3F26FCD58C000CEB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D038F3D26FCD58C000CEB3E /* LaunchScreen.storyboard */; };
 		7D038F4826FCD742000CEB3E /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7D038F4726FCD742000CEB3E /* CombineCocoa */; };
 		7D038F4A26FCDB3C000CEB3E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D038F4926FCDB3C000CEB3E /* Extensions.swift */; };
+		7DFF22B026FCEB9300191586 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFF22AF26FCEB9300191586 /* LoginViewModel.swift */; };
+		7DFF22B226FCEBA100191586 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFF22B126FCEBA100191586 /* LoginModel.swift */; };
+		7DFF22B426FCEBE200191586 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFF22B326FCEBE200191586 /* LoginViewController.swift */; };
+		7DFF22B626FCEBF400191586 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFF22B526FCEBF400191586 /* LoginViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +31,10 @@
 		7D038F3E26FCD58C000CEB3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D038F4026FCD58C000CEB3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D038F4926FCDB3C000CEB3E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7DFF22AF26FCEB9300191586 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		7DFF22B126FCEBA100191586 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		7DFF22B326FCEBE200191586 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7DFF22B526FCEBF400191586 /* LoginViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,10 @@
 		7DFF22AC26FCEA9C00191586 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				7DFF22B126FCEBA100191586 /* LoginModel.swift */,
+				7DFF22B326FCEBE200191586 /* LoginViewController.swift */,
+				7DFF22B526FCEBF400191586 /* LoginViewController.storyboard */,
+				7DFF22AF26FCEB9300191586 /* LoginViewModel.swift */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -161,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D038F3F26FCD58C000CEB3E /* LaunchScreen.storyboard in Resources */,
+				7DFF22B626FCEBF400191586 /* LoginViewController.storyboard in Resources */,
 				7D038F3C26FCD58C000CEB3E /* Assets.xcassets in Resources */,
 				7D038F3A26FCD58B000CEB3E /* Main.storyboard in Resources */,
 			);
@@ -173,9 +186,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DFF22B426FCEBE200191586 /* LoginViewController.swift in Sources */,
 				7D038F3726FCD58B000CEB3E /* ViewController.swift in Sources */,
+				7DFF22B226FCEBA100191586 /* LoginModel.swift in Sources */,
 				7D038F3326FCD58B000CEB3E /* AppDelegate.swift in Sources */,
 				7D038F3526FCD58B000CEB3E /* SceneDelegate.swift in Sources */,
+				7DFF22B026FCEB9300191586 /* LoginViewModel.swift in Sources */,
 				7D038F4A26FCDB3C000CEB3E /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
