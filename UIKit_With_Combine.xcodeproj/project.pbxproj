@@ -13,6 +13,7 @@
 		7D038F3A26FCD58B000CEB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D038F3826FCD58B000CEB3E /* Main.storyboard */; };
 		7D038F3C26FCD58C000CEB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D038F3B26FCD58C000CEB3E /* Assets.xcassets */; };
 		7D038F3F26FCD58C000CEB3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D038F3D26FCD58C000CEB3E /* LaunchScreen.storyboard */; };
+		7D038F4826FCD742000CEB3E /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 7D038F4726FCD742000CEB3E /* CombineCocoa */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D038F4826FCD742000CEB3E /* CombineCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = UIKit_With_Combine;
+			packageProductDependencies = (
+				7D038F4726FCD742000CEB3E /* CombineCocoa */,
+			);
 			productName = UIKit_With_Combine;
 			productReference = 7D038F2F26FCD58B000CEB3E /* UIKit_With_Combine.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 7D038F2626FCD58B000CEB3E;
+			packageReferences = (
+				7D038F4626FCD742000CEB3E /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+			);
 			productRefGroup = 7D038F3026FCD58B000CEB3E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -360,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7D038F4626FCD742000CEB3E /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D038F4726FCD742000CEB3E /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D038F4626FCD742000CEB3E /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7D038F2726FCD58B000CEB3E /* Project object */;
 }
